@@ -96,6 +96,9 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 # Power
 TARGET_POWERHAL_VARIANT := qcom
 
+# RIL
+BOARD_RIL_CLASS += ../../../device/lge/g3-common/ril
+
 # Qualcomm support
 BOARD_USES_QCOM_HARDWARE := true
 
